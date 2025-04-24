@@ -3,6 +3,7 @@ import { Canvas } from "@react-three/fiber";
 import { useMediaQuery } from "react-responsive";
 
 import { Room } from "./Room";
+import HeroLights from "./HeroLights";
 // import HeroLights from "./HeroLights";
 // import Particles from "./Particles";
 // import { Suspense } from "react";
@@ -13,9 +14,8 @@ const HeroExperience = () => {
 
   return (
     <Canvas camera={{ position: [0, 0, 15], fov: 45 }}>
-      {/* deep blue ambient */}
-      <ambientLight intensity={0.2} color="#1a1a40" />
-      <directionalLight position={[5,5,5]} intensity={2}/>
+      
+      <HeroLights/>
 
       {/* Configure OrbitControls to disable panning and control zoom based on device type */}
       <OrbitControls
