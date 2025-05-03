@@ -16,6 +16,7 @@ const NavBar = () => {
     }, [])
 
   return (
+    // somthing is up with the scrolled ? different from the video but it works
     <header className={`navbar ${'scrolled' ? 'scrolled': 'not-scrolled'}`}>
         <div className="inner">
             <a className="logo" href="#hero">
