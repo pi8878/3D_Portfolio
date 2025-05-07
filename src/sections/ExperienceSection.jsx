@@ -1,6 +1,8 @@
 import React from 'react'
 import TitleHeader from '../components/TitleHeader'
 import GlowCard from '../components/GlowCard'
+import { expCards } from "../constants";
+
 
 // windows + . for emoji adding
 
