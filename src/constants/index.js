@@ -179,7 +179,7 @@ const expCards = [
     responsibilities: [
       "Built a Text-to-Speech synthesis system to revitalize Betine, an endangered language from Côte d'Ivoire.",
       "Applied audio processing and machine learning models to improve synthesized voice clarity and realism.",
-      "Streamlined PSOLA analysis to merge different WAV files, improving playback and engagement.",
+      "Streamlined PSOLA analysis to merge different WAV files, improving playback.",
     ],
   },
 ];
